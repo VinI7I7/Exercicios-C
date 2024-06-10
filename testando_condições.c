@@ -11,7 +11,7 @@ main(void){
 	scanf("%s", &setor);
 	
 	if ((setor == 'A') || ((setor == '111')) || (setor == 'TEC')){
-		printf("Bem vindo ao setor TÉCNICO");
+		printf("Bem vindo ao setor TÃ‰CNICO");
 	}
 	else if ((setor == 'B') || (setor == '112') || (setor == 'AN')){
 		printf("Bem vindo ao setor ANALISTA");
@@ -23,7 +23,7 @@ main(void){
 		printf("Bem vindo ao setor DIRETOR");
 	}
 	else{
-		printf("Digite tudo maiúsculo e conforme o setor!!");
+		printf("Digite tudo maiÃºsculo e conforme o setor!!");
 	}
 	return 0;
 }
